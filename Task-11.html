@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS-TASK-10</title>
+        <style>
+            .main{
+                display: inline-flex;
+                background-color: yellow;
+                width: 550px;
+                height: 400px;
+                padding: 10px;
+                border: 1px dotted black;
+            }
+            .first-columns{
+                width:190px;
+                margin-top: 20px;
+            }
+            .sub1, .sub2{
+                display: inline-flex;
+            }
+            .first-columns p{
+                background-color: white;
+                width:90px;
+                padding:5px;
+                margin-top:20px;
+            }
+            .first-columns span{
+                background-color:black;
+                width:20px;
+                margin-top:20px;
+                height:29px;
+            }
+            .sub2{
+                color:blue;
+            }
+            hr{
+                text-decoration-style: dotted;
+            }
+            .second-columns{
+                color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div  class="first-columns">
+                <div class="sub1">
+                    <p>Home Page</p>
+                    <span></span>
+                </div>
+                <div class="sub2">
+                    <p>Musings</p>
+                    <span></span>
+                </div>
+                <div class="sub2">
+                    <p>My Town</p>
+                    <span></span>
+                </div>
+                <div class="sub2">
+                    <p >Links</p>
+                    <span></span>
+                </div>
+            </div>
+            <div class="second-columns">
+                <h2>My first styled page</h2>
+                <p>Welcome to my styled page!</p>
+                <p>It lacks images,but at least it has style. And it has links, even if they don't go anywhere.</p>
+                <p>There should be more here, but I don't Know what yet.</p>
+                <hr>
+                <p>Made <I>5 April 2004</I></p>
+                <p><I>by myself.</I></p>
+            </div>
+        </div>
+    </body>
+</html>
